@@ -1,0 +1,110 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (javaClasses.cpp:136), pid=8124, tid=13636
+#  fatal error: Invalid layout of preloaded class
+#
+# JRE version:  (7.0_51-b13) (build )
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (24.51-b03 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.sun.com/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x000000000047d800):  JavaThread "Unknown thread" [_thread_in_vm, id=13636, stack(0x00000000024c0000,0x00000000025c0000)]
+
+Stack: [0x00000000024c0000,0x00000000025c0000]
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x000000000047d800 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=13636, stack(0x00000000024c0000,0x00000000025c0000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (10 events):
+Event: 0.009 loading class 0x000000000aeb0760 done
+Event: 0.009 loading class 0x000000000aeb0180 done
+Event: 0.009 loading class 0x000000000aeb0160
+Event: 0.009 loading class 0x000000000aeb8230
+Event: 0.009 loading class 0x000000000aeb8230 done
+Event: 0.009 loading class 0x000000000aeb8260
+Event: 0.009 loading class 0x000000000aeb8260 done
+Event: 0.009 loading class 0x000000000aeb8290
+Event: 0.009 loading class 0x000000000aeb8290 done
+Event: 0.009 loading class 0x000000000aeb0160 done
+
+
+Dynamic libraries:
+0x000000013f4a0000 - 0x000000013f4d3000 	D:\JavaDevelopmentKit\bin\javaw.exe
+0x0000000077650000 - 0x00000000777f9000 	C:\Windows\SYSTEM32\ntdll.dll
+0x0000000077530000 - 0x000000007764f000 	C:\Windows\system32\kernel32.dll
+0x000007fefd730000 - 0x000007fefd79b000 	C:\Windows\system32\KERNELBASE.dll
+0x000007fefe030000 - 0x000007fefe10b000 	C:\Windows\system32\ADVAPI32.dll
+0x000007fefdf90000 - 0x000007fefe02f000 	C:\Windows\system32\msvcrt.dll
+0x000007fefddb0000 - 0x000007fefddcf000 	C:\Windows\SYSTEM32\sechost.dll
+0x000007feff1b0000 - 0x000007feff2dd000 	C:\Windows\system32\RPCRT4.dll
+0x0000000077430000 - 0x000000007752a000 	C:\Windows\system32\USER32.dll
+0x000007fefdb60000 - 0x000007fefdbc7000 	C:\Windows\system32\GDI32.dll
+0x000007fefddd0000 - 0x000007fefddde000 	C:\Windows\system32\LPK.dll
+0x000007feff0d0000 - 0x000007feff199000 	C:\Windows\system32\USP10.dll
+0x000007fefbf90000 - 0x000007fefc184000 	C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac\COMCTL32.dll
+0x000007fefde00000 - 0x000007fefde71000 	C:\Windows\system32\SHLWAPI.dll
+0x000007feff930000 - 0x000007feff95e000 	C:\Windows\system32\IMM32.DLL
+0x000007fefde80000 - 0x000007fefdf89000 	C:\Windows\system32\MSCTF.dll
+0x0000000068210000 - 0x00000000682e2000 	D:\JavaDevelopmentKit\bin\msvcr100.dll
+0x0000000050e60000 - 0x0000000051629000 	D:\JavaDevelopmentKit\bin\server\jvm.dll
+0x000007fefc410000 - 0x000007fefc419000 	C:\Windows\system32\WSOCK32.dll
+0x000007feff8e0000 - 0x000007feff92d000 	C:\Windows\system32\WS2_32.dll
+0x000007feff1a0000 - 0x000007feff1a8000 	C:\Windows\system32\NSI.dll
+0x000007fef90e0000 - 0x000007fef911b000 	C:\Windows\system32\WINMM.dll
+0x0000000077810000 - 0x0000000077817000 	C:\Windows\system32\PSAPI.DLL
+0x00000000707e0000 - 0x00000000707ef000 	D:\JavaDevelopmentKit\bin\verify.dll
+0x000000006e460000 - 0x000000006e488000 	D:\JavaDevelopmentKit\bin\java.dll
+0x000000006e930000 - 0x000000006e945000 	D:\JavaDevelopmentKit\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Dfile.encoding=GBK -Xbootclasspath:D:\adt-bundle-windows-x86_64-20140321\sdk\platforms\android-14\android.jar 
+java_command: Test
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=D:\JavaDevelopmentKit
+CLASSPATH=D:\JavaDevelopmentKit\lib;D:\adt-bundle-windows-x86_64-20140321\sdk
+PATH=D:/JavaDevelopmentKit/bin/server;D:/JavaDevelopmentKit/bin;D:/JavaDevelopmentKit/lib/amd64;D:\adt-bundle-windows-x86_64-20140321\sdk\tools;D:\JavaDevelopmentKit\bin;D:\eclipse-standard-kepler-SR2-win32-x86_64 (1)\eclipse;
+USERNAME=Administrator
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 60 Stepping 3, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 7 , 64 bit Build 7601 Service Pack 1
+
+CPU:total 8 (4 cores per cpu, 2 threads per core) family 6 model 60 stepping 3, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, avx2, aes, erms, ht, tsc, tscinvbit
+
+Memory: 4k page, physical 8328596k(5027216k free), swap 16655328k(11743400k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (24.51-b03) for windows-amd64 JRE (1.7.0_51-b13), built on Dec 18 2013 18:40:56 by "java_re" with unknown MS VC++:1600
+
+time: Fri Jun 27 00:35:27 2014
+elapsed time: 0 seconds
+
